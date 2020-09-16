@@ -9,6 +9,7 @@ export default function DetailsPage() {
      * const imdbID = params.imdbID;
      */
     return (
-       <p> Details page : Imdb ID {params.imdbID}</p>
+       <h2> Details page : Imdb ID {params.imdbID}</h2>
+    //    <p> Details page : Imdb ID {type}</p>
     )
 }
